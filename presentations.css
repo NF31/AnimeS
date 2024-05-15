@@ -1,0 +1,22 @@
+#presentations{
+    padding: 0 10%;
+    h2{
+        color: crimson;
+    }
+
+    p{
+        color: #ffffff;
+        line-height: 2;
+    }
+}
+
+@media screen  and (max-width:850px){
+ #presentations{
+    margin-top: 8%;
+    margin-bottom: 8%;
+
+    h2{
+        margin-bottom: 2%;
+    }
+ }   
+}

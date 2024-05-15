@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url(./img/backgroundJJTSK.png);
+  background-image: url(./img/ak.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -98,7 +98,6 @@ header .logo:hover {
 /* Description section */
 
 .description {
-  height: 600px;
   padding: 0 10%;
   display: flex;
   align-items: center;
@@ -148,7 +147,7 @@ header .logo:hover {
 
 @media screen and (max-width: 900px) {
   body {
-    background-image: url(./img/ichigo.jpg);
+    background-image: url(./img/konoha.jpg);
   }
 
   header {

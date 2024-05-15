@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime Store</title>
     <link rel="stylesheet" href="./anime.css" />
+    <link rel="stylesheet" href="./presentations.css" /> 
+    <link rel="stylesheet" href="./contact.css" /> 
   </head>
   <body>
     <!-- Header description -->
@@ -18,9 +20,8 @@
       <div class="menu">
         <ul>
           <li><a id="act" href="">Accueil</a></li>
-          <li><a href="">Présentation</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="" class="buy">Acheter</a></li>
+          <li><a href="" id="presentations">Présentation</a></li>
+          <li><a href="" id="contact">Contact</a></li>
         </ul>
       </div>
 
@@ -41,15 +42,109 @@
           <span class="bec">BE</span>
         </h1>
 
-        <p>Bienvenue sur le site d'animés de NF dév.</p>
-        <a href="" class="buy">Acheter Maintenant</a>
+        <p>Bienvenue dans l'univers de NF dév.</p>
+        <a href="https://naruto.fandom.com/fr/wiki/Naruto_Uzumaki" target="_blank" class="buy">Mon univers</a>
       </div>
 
       <div class="droite">
-        <img src="./img/goku-namek.jpg" alt="" />
+        <img src="./img/goku.webp" alt="" />
       </div>
     </section>
 
+
+    <section id="presentations">
+      <h2>Bienvenue !</h2>
+      <p>Je suis passionné par les animes et les mangas depuis plusieurs années. Pour moi, ces formes d'art représentent bien plus que de simples divertissements : ils sont une source d'inspiration, d'évasion et de connexion avec d'autres fans à travers le monde.</p>
+      <p>Des histoires épiques de héros courageux comme Naruto, Luffy de One Piece, ou Ichigo de Bleach, aux intrigues complexes et émouvantes de séries comme Attack on Titan et Fullmetal Alchemist, chaque anime et manga que je découvre enrichit mon univers et me permet d'explorer de nouveaux mondes fantastiques.</p>
+      <p>Que ce soit en suivant les aventures de mes personnages préférés comme Taichi de Digimon, Pain de Naruto, Sena de Eyeshield 21, Meliodas de The Seven Deadly Sins, ou en discutant des dernières sorties avec d'autres passionnés, l'univers des animes et des mangas occupe une place spéciale dans mon cœur.</p>
+  </section>
+  
+
+  
+  <section id="contact">
+    <h2>Contact !</h2>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Restons en contact</h3>
+          <p class="text">
+            Si vous avez des questions, des commentaires ou simplement envie de discuter, n'hésitez pas à me contacter. Je suis toujours ravi d'échanger avec d'autres passionnés d'animes et de mangas comme vous !
+        </p>
+
+          <div class="info">
+            <div class="information">
+              <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+
+              <p>Toulouse - Paris</p>
+            </div>
+            <div class="information">
+              <a href="mailto:nfdev21@gmail.com"><i class="fas fa-envelope"></i></a>&nbsp;&nbsp;
+              <p><a href="mailto:nfdev21@gmail.com" class="dev">nfdev21@gmail.com</a></p>
+          </div>
+          
+            <div class="information">
+              <i class="fas fa-phone"></i>&nbsp&nbsp
+              <p>0781882130</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Mes réseaux :</p>
+            <div class="social-icons">
+             
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Pseudo</label>
+              <span>Pseudo</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Téléphone</label>
+              <span>Téléphone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Envoyer" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div></section>
+
+  
     <script src="./anime.js"></script>
+    <script src="./contact.js"></script>
+    <script
+    src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>
